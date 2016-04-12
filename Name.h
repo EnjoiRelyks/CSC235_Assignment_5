@@ -10,5 +10,4 @@ struct Name
 };
 
 Name getName(string firstName, string lastName, char middleInitial);
-
 string getString(Name fullName);
