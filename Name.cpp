@@ -19,6 +19,7 @@ Name getName(string firstName, string lastName, char middleInitial)
 
 string getString(Name fullName)
 {
-	string str = fullName.fName + " " + fullName.mInitial + ". " + fullName.lName; //concatenates the data into a single string
+	//concatenates the data into a single string	
+	string str = fullName.fName + " " + fullName.mInitial + ". " + fullName.lName; 
 	return str;
 }
